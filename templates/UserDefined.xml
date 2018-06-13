@@ -1,0 +1,19 @@
+<templateSet group="UserDefined">
+  <template name="tg" value="$groovyScript$" description="execute groovySciprt" toReformat="false" toShortenFQNames="true">
+    <variable name="groovyScript" expression="groovyScript(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="PFM" value="long startTime = System.currentTimeMillis();&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="slog" value="private static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger($class$.class);&#10;" description="add logger for current class" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
