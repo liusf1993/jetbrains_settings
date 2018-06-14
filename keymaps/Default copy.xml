@@ -1,0 +1,8 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="Console.TableResult.SetDefault" />
+  <action id="Scala.Desugar" />
+  <action id="ScrollFromSource">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+</keymap>

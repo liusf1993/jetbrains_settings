@@ -5,7 +5,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="PFM" value="long startTime = System.currentTimeMillis();&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" toReformat="false" toShortenFQNames="true">
+  <template name="PFM" value="long startTime = System.currentTimeMillis();&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
