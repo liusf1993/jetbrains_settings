@@ -1,0 +1,8 @@
+<templateSet group="AngularJS ">
+  <template name="split" value="$xxxxx$" description="kugou" toReformat="false" toShortenFQNames="true">
+    <variable name="xxxxx" expression="groovyScript(&quot; _1&quot;,clipboard())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+</templateSet>
