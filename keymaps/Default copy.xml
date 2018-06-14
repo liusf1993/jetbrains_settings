@@ -1,5 +1,9 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="Console.TableResult.SetDefault" />
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
+  <action id="IntroduceConstant" />
   <action id="Scala.Desugar" />
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="ctrl meta s" />
