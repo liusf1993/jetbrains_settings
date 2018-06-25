@@ -5,7 +5,7 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.sql" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -16,12 +16,12 @@
     <mask>UsualScoreAnalysisUtil</mask>
     <mask>pom.xml</mask>
     <mask>*.xml</mask>
-    <mask>*.sql</mask>
     <mask>*.*</mask>
     <mask>*er.java</mask>
     <mask>*.scala</mask>
     <mask>*.properties</mask>
     <mask>*Controller.java</mask>
     <mask>*.java</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
