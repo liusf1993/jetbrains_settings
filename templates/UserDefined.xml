@@ -16,4 +16,16 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="crt" value="ResultContent.createSuccessResult($SELECTION$)" description="resultContent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="rt" value="ResultContent[$SELECTION$]" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
 </templateSet>
