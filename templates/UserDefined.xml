@@ -22,7 +22,7 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
-  <template name="rt" value="ResultContent[$SELECTION$]" toReformat="false" toShortenFQNames="true">
+  <template name="rt" value="ResultContent[$SELECTION$]" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="SCALA" value="true" />
