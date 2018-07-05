@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="pom.xml" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -12,7 +12,6 @@
     <mask>*.mxml</mask>
     <mask>_*.scala</mask>
     <mask>UsualScoreAnalysisUtil</mask>
-    <mask>pom.xml</mask>
     <mask>*.xml</mask>
     <mask>*.*</mask>
     <mask>*er.java</mask>
@@ -21,5 +20,6 @@
     <mask>*.sql</mask>
     <mask>*.scala</mask>
     <mask>*.java</mask>
+    <mask>pom.xml</mask>
   </component>
 </application>
