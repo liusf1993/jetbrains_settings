@@ -5,7 +5,6 @@
       <mapping pattern="让工具与与帮助你提升工作效率" type="PLAIN_TEXT" />
       <mapping pattern="x" type="PLAIN_TEXT" />
       <mapping ext="汇总基本分析_res" type="PLAIN_TEXT" />
-      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="江总增量分析_res" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="年级优良等第设置" type="PLAIN_TEXT" />
