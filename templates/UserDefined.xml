@@ -7,7 +7,7 @@
   </template>
   <template name="PFM" value="long startTime = System.currentTimeMillis();&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" description="" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_CODE" value="true" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="slog" value="private static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger($class$.class);&#10;" description="add logger for current class" toReformat="false" toShortenFQNames="true">
@@ -26,6 +26,11 @@
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="spfm" value="val start = System.currentTimeMillis()&#10;$SELECTION$&#10;println(System.currentTimeMillis()-start)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
     </context>
   </template>
 </templateSet>
