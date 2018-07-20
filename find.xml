@@ -3,9 +3,11 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="localRegularExpressions" value="true" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.scala" />
+    <option name="FILE_MASK" value="pom.xml" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -19,9 +21,9 @@
     <mask>*er.java</mask>
     <mask>*.properties</mask>
     <mask>*Controller.java</mask>
-    <mask>pom.xml</mask>
     <mask>*.sql</mask>
     <mask>*.java</mask>
     <mask>*.scala</mask>
+    <mask>pom.xml</mask>
   </component>
 </application>
