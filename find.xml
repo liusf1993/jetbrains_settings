@@ -5,7 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="*.scala" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -18,10 +18,10 @@
     <mask>*er.java</mask>
     <mask>*.properties</mask>
     <mask>*Controller.java</mask>
-    <mask>*.scala</mask>
     <mask>pom.xml</mask>
     <mask>*.java</mask>
     <mask>*.sql</mask>
     <mask>*.*</mask>
+    <mask>*.scala</mask>
   </component>
 </application>
