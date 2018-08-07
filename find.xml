@@ -2,10 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.sql" />
+    <option name="FILE_MASK" value="*.scala" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -19,9 +17,9 @@
     <mask>*.properties</mask>
     <mask>*Controller.java</mask>
     <mask>pom.xml</mask>
-    <mask>*.scala</mask>
     <mask>*.*</mask>
     <mask>*.java</mask>
     <mask>*.sql</mask>
+    <mask>*.scala</mask>
   </component>
 </application>
