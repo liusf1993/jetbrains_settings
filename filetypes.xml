@@ -7,7 +7,6 @@
       <mapping ext="汇总基本分析_res" type="PLAIN_TEXT" />
       <mapping ext="江总增量分析_res" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
-      <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping ext="年级优良等第设置" type="PLAIN_TEXT" />
       <mapping ext="txt (invalid encoding)" type="PLAIN_TEXT" />
     </extensionMap>
