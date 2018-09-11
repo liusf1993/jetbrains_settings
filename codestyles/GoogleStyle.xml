@@ -19,7 +19,7 @@
     <option name="INDENT_CHAINED_CALLS" value="false" />
   </JSCodeStyleSettings>
   <JSON>
-    <option name="OBJECT_WRAPPING" value="0" />
+    <option name="OBJECT_WRAPPING" value="1" />
   </JSON>
   <JavaCodeStyleSettings>
     <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
