@@ -15,12 +15,12 @@
     <mask>*er.java</mask>
     <mask>*.properties</mask>
     <mask>*Controller.java</mask>
-    <mask>*.sql</mask>
     <mask>pom.xml</mask>
     <mask>*.scala</mask>
     <mask>*.hbm.xml</mask>
     <mask>*.*</mask>
     <mask>*.xml</mask>
+    <mask>*.sql</mask>
     <mask>*.java</mask>
   </component>
 </application>
