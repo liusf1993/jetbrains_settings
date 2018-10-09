@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'regionresevalserv'" />
-    <option name="defaultScopeName" value="Module 'regionresevalserv'" />
-    <option name="SEARCH_SCOPE" value="Module 'regionresevalserv'" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="pom.xml" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -20,8 +20,8 @@
     <mask>*.xml</mask>
     <mask>*.*l</mask>
     <mask>*.*</mask>
-    <mask>pom.xml</mask>
     <mask>*.scala</mask>
     <mask>*.java</mask>
+    <mask>pom.xml</mask>
   </component>
 </application>
