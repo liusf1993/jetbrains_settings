@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*Controller.java" />
+    <option name="FILE_MASK" value="*.sql" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -15,7 +15,6 @@
     <mask>*er.java</mask>
     <mask>*.properties</mask>
     <mask>*.hbm.xml</mask>
-    <mask>*.sql</mask>
     <mask>*.xml</mask>
     <mask>*.*l</mask>
     <mask>*.*</mask>
@@ -23,5 +22,6 @@
     <mask>*.java</mask>
     <mask>pom.xml</mask>
     <mask>*Controller.java</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
