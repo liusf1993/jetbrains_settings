@@ -15,6 +15,9 @@
         <mark key="^" line="12" column="41" />
         <mark key="." line="15" column="11" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/bean/vo/output/MapProvinModel.java" timestamp="1540196100875">
+        <mark key="[" line="2" column="29" />
+      </file>
       <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/service/base/IScoreMapLevelConfigBaseService.java" timestamp="1540193049731">
         <mark key="'" line="5" column="91" />
         <mark key="[" line="5" column="18" />
@@ -26,12 +29,12 @@
         <mark key="^" line="12" column="37" />
         <mark key="." line="15" column="11" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/controller/MapScoreController.java" timestamp="1540195513941">
+      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/controller/MapScoreController.java" timestamp="1540196322957">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="127" column="22" />
-        <mark key="]" line="127" column="45" />
-        <mark key="^" line="127" column="45" />
-        <mark key="." line="127" column="45" />
+        <mark key="[" line="129" column="64" />
+        <mark key="]" line="129" column="64" />
+        <mark key="^" line="129" column="40" />
+        <mark key="." line="129" column="64" />
       </file>
     </filemarks>
     <jumps>
@@ -41,13 +44,13 @@
     </jumps>
     <registers>
       <register name="0" type="4">
-        <text encoding="base64">ICAgIEBSZXF1ZXN0TWFwcGluZygiL3VzZXJNYXBTY29yZXMiKQogICAgcHVibGljIFJlc3VsdENvbnRlbnQ8VXNlck1hcFNjb3JlVk9bXT4gdXNlck1hcFNjb3JlcygKICAgICAgICBAUmVxdWVzdEJvZHkgUmVxdWVzdFBhcmFJbmZvPE1hcFNjb3JlUGFyYW0+IHBhcmFtSW5mbykgdGhyb3dzIFNjb3JlRXhjZXB0aW9uIHsKCiAgICAgICAgSW50ZWdlciBzY2hvb2xJRCA9IHBhcmFtSW5mby5nZXRTY2hvb2xJRCgpOwogICAgICAgIEludGVnZXIgcmVnaW9uSUQgPSBwYXJhbUluZm8uZ2V0R3JhZGVJRCgpOwogICAgICAgIEludGVnZXIgZ3JhZGVJRCA9IHBhcmFtSW5mby5nZXRHcmFkZUlEKCk7CiAgICAgICAgZmluYWwgTWFwU2NvcmVQYXJhbSBtYXBTY29yZVBhcmFtID0gcGFyYW1JbmZvLmdldFBhcmFtZXRlcigpLnNldFJlZ2lvbklEKHJlZ2lvbklEKS5zZXRTY2hvb2xJRChzY2hvb2xJRCkuc2V0R3JhZGVJRChncmFkZUlEKTsKICAgICAgICBmaW5hbCBVc2VyTWFwU2NvcmVWT1tdIHVzZXJNYXBTY29yZXMgPSBzY2FsYU1hcFNjb3JlU2VydmljZS5nZXRVc2VyTWFwU2NvcmVzKG1hcFNjb3JlUGFyYW0pOwogICAgICByZXR1cm4gUmVzdWx0Q29udGVudC5jcmVhdGVTdWNjZXNzUmVzdWx0KHVzZXJNYXBTY29yZXMpOwoKICAgIH0=</text>
+        <text>getScoreMapLevelSettings</text>
       </register>
       <register name="&quot;" type="4">
-        <text>serMapScores</text>
+        <text>ssgetScoreMapLevelSettingserMapScores</text>
       </register>
       <register name="-" type="4">
-        <text>serMapScores</text>
+        <text>ssgetScoreMapLevelSettingserMapScores</text>
       </register>
     </registers>
     <search>
