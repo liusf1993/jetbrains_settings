@@ -29,28 +29,49 @@
         <mark key="^" line="12" column="37" />
         <mark key="." line="15" column="11" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/controller/MapScoreController.java" timestamp="1540196322957">
+      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/controller/MapScoreController.java" timestamp="1540196483206">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="129" column="64" />
-        <mark key="]" line="129" column="64" />
-        <mark key="^" line="129" column="40" />
-        <mark key="." line="129" column="64" />
+        <mark key="[" line="136" column="68" />
+        <mark key="]" line="136" column="90" />
+        <mark key="^" line="136" column="107" />
+        <mark key="." line="136" column="107" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/scala/com/hqjl/scores/service/IScalaMapScoreService.scala" timestamp="1540196929928">
+        <mark key="'" line="59" column="1" />
+        <mark key="[" line="61" column="74" />
+        <mark key="]" line="62" column="1" />
+        <mark key="^" line="62" column="1" />
+        <mark key="." line="62" column="1" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/scala/com/hqjl/scores/service/impl/ScalaMapScoreServiceImpl.scala" timestamp="1540197012209">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="437" column="11" />
+        <mark key="]" line="437" column="79" />
+        <mark key="^" line="444" column="121" />
+        <mark key="." line="444" column="121" />
       </file>
     </filemarks>
     <jumps>
       <jump line="5" column="91" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/service/base/IScoreMapLevelConfigBaseService.java" />
       <jump line="115" column="0" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/controller/MapScoreController.java" />
       <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/controller/MapScoreController.java" />
+      <jump line="438" column="3" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/scala/com/hqjl/scores/service/impl/ScalaMapScoreServiceImpl.scala" />
+      <jump line="40" column="25" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/scala/com/hqjl/scores/service/impl/ScalaMapScoreServiceImpl.scala" />
+      <jump line="278" column="6" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/scala/com/hqjl/scores/service/impl/ScalaMapScoreServiceImpl.scala" />
+      <jump line="59" column="1" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/scala/com/hqjl/scores/service/IScalaMapScoreService.scala" />
+      <jump line="30" column="15" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/scala/com/hqjl/scores/service/impl/ScalaMapScoreServiceImpl.scala" />
+      <jump line="415" column="0" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/scala/com/hqjl/scores/service/impl/ScalaMapScoreServiceImpl.scala" />
+      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/scala/com/hqjl/scores/service/impl/ScalaMapScoreServiceImpl.scala" />
     </jumps>
     <registers>
       <register name="0" type="4">
-        <text>getScoreMapLevelSettings</text>
+        <text>def getScoreMapLevelSetting(schoolID:Int,gradeID: Int):MapProvinModel</text>
       </register>
       <register name="&quot;" type="4">
-        <text>ssgetScoreMapLevelSettingserMapScores</text>
+        <text>def getScoreMapLevelSetting(schoolID:Int,gradeID: Int):MapProvinModel</text>
       </register>
       <register name="-" type="4">
-        <text>ssgetScoreMapLevelSettingserMapScores</text>
+        <text>schoolI</text>
       </register>
     </registers>
     <search>
@@ -64,6 +85,12 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed U</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
