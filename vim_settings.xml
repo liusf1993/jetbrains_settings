@@ -1,0 +1,58 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/service/base/IScoreMapLevelBaseService.java" timestamp="1540192847069">
+        <mark key="[" line="5" column="18" />
+        <mark key="]" line="5" column="41" />
+        <mark key="^" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/service/base/impl/ScoreMapLevelConfigBaseServiceImpl.java" timestamp="1540193127704">
+        <mark key="[" line="15" column="20" />
+        <mark key="]" line="15" column="20" />
+        <mark key="^" line="12" column="41" />
+        <mark key="." line="15" column="11" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/service/base/IScoreMapLevelConfigBaseService.java" timestamp="1540193049731">
+        <mark key="'" line="5" column="91" />
+        <mark key="[" line="5" column="18" />
+        <mark key="]" line="5" column="47" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/service/base/impl/ScoreMapLevelBaseServiceImpl.java" timestamp="1540192924451">
+        <mark key="[" line="15" column="20" />
+        <mark key="]" line="15" column="20" />
+        <mark key="^" line="12" column="37" />
+        <mark key="." line="15" column="11" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="5" column="91" filename="$USER_HOME$/IdeaProjects/nzy_umbrella/score/scoreserv/src/main/java/com/hqjl/scores/service/base/IScoreMapLevelConfigBaseService.java" />
+    </jumps>
+    <registers>
+      <register name="0" type="4">
+        <text>entityDao</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>o</text>
+      </register>
+      <register name="-" type="4">
+        <text>o</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
