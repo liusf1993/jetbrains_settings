@@ -33,4 +33,10 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
+  <template name="slog2" value="private val logger: org.slf4j.Logger = org.slf4j.LoggerFactory.getLogger(classOf[$class$])" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="scala_className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
 </templateSet>
