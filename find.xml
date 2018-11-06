@@ -5,7 +5,7 @@
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.scala" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -17,7 +17,6 @@
     <mask>*er.java</mask>
     <mask>*.properties</mask>
     <mask>*.hbm.xml</mask>
-    <mask>*.xml</mask>
     <mask>*.*l</mask>
     <mask>*Controller.java</mask>
     <mask>pom.xml</mask>
@@ -26,5 +25,6 @@
     <mask>*.*</mask>
     <mask>*.sql</mask>
     <mask>*.scala</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
