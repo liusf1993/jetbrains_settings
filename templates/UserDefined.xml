@@ -44,4 +44,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="PFS" value="var startTime = System.currentTimeMillis()&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="PFS2" value="startTime = System.currentTimeMillis()&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
 </templateSet>
