@@ -22,11 +22,11 @@
     <mask>*Controller.java</mask>
     <mask>*.xml</mask>
     <mask>*.sql</mask>
-    <mask>*.scala</mask>
     <mask>pom</mask>
     <mask>pom.xml</mask>
     <mask>*.*</mask>
     <mask>*.*</mask>
+    <mask>*.scala</mask>
     <mask>*.java</mask>
   </component>
 </application>
