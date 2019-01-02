@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="*.scala" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -20,11 +20,11 @@
     <mask>*Controller.java</mask>
     <mask>*.sql</mask>
     <mask>pom</mask>
-    <mask>*.scala</mask>
     <mask>pom.xml</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.*</mask>
     <mask>*.*</mask>
+    <mask>*.scala</mask>
   </component>
 </application>
