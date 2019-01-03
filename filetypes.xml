@@ -1,18 +1,18 @@
 <application>
   <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*.classpath;*.hprof;*.project;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.idea;.iml;.settings;.svn;CVS;__pycache__;_svn;target;vssver.scc;vssver2.scc;" />
+    <ignoreFiles list="*.classpath;*.hprof;*.iml;*.project;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.idea;.iml;.settings;.svn;CVS;__pycache__;_svn;target;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping pattern="让工具与与帮助你提升工作效率" type="PLAIN_TEXT" />
-      <mapping pattern=".part-00000-3192f284-efb0-4e96-a27c-f63c3e10152e.json.crc" type="PLAIN_TEXT" />
-      <mapping pattern="001标准分设置" type="PLAIN_TEXT" />
       <mapping pattern="x" type="PLAIN_TEXT" />
+      <mapping pattern="让工具与与帮助你提升工作效率" type="PLAIN_TEXT" />
       <mapping pattern="Kugou" type="PLAIN_TEXT" />
-      <mapping ext="汇总基本分析_res" type="PLAIN_TEXT" />
-      <mapping ext="bak" type="PLAIN_TEXT" />
-      <mapping ext="江总增量分析_res" type="PLAIN_TEXT" />
-      <mapping ext="out" type="PLAIN_TEXT" />
+      <mapping pattern="001标准分设置" type="PLAIN_TEXT" />
+      <mapping pattern=".part-00000-3192f284-efb0-4e96-a27c-f63c3e10152e.json.crc" type="PLAIN_TEXT" />
       <mapping ext="data" type="PLAIN_TEXT" />
+      <mapping ext="out" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="年级优良等第设置" type="PLAIN_TEXT" />
+      <mapping ext="汇总基本分析_res" type="PLAIN_TEXT" />
+      <mapping ext="江总增量分析_res" type="PLAIN_TEXT" />
       <mapping ext="txt (invalid encoding)" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
