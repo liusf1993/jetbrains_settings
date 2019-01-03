@@ -6,6 +6,7 @@
       <mapping pattern="让工具与与帮助你提升工作效率" type="PLAIN_TEXT" />
       <mapping pattern="Kugou" type="PLAIN_TEXT" />
       <mapping pattern="001标准分设置" type="PLAIN_TEXT" />
+      <mapping pattern=".part-00000-e0f8bbc3-6bb1-4022-8f08-bc0346662f69.json.crc" type="PLAIN_TEXT" />
       <mapping pattern=".part-00000-3192f284-efb0-4e96-a27c-f63c3e10152e.json.crc" type="PLAIN_TEXT" />
       <mapping ext="data" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
