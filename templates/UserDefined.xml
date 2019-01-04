@@ -5,7 +5,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="PFM" value="long startTime = System.currentTimeMillis();&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="PFM" value="long startTime = System.currentTimeMillis();&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
@@ -25,32 +25,6 @@
   <template name="rt" value="ResultContent[$SELECTION$]" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="SCALA" value="true" />
-    </context>
-  </template>
-  <template name="exe" value="execute(()=&gt;&#10;$SELECTION$&#10;)" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="SCALA" value="true" />
-    </context>
-  </template>
-  <template name="slog2" value="private val logger: org.slf4j.Logger = org.slf4j.LoggerFactory.getLogger(classOf[$class$])" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="class" expression="scala_className()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="SCALA" value="true" />
-    </context>
-  </template>
-  <template name="PFM2" value="startTime = System.currentTimeMillis();&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime);" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="PFS" value="var startTime = System.currentTimeMillis()&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="SCALA" value="true" />
-    </context>
-  </template>
-  <template name="PFS2" value="startTime = System.currentTimeMillis()&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" description="" toReformat="false" toShortenFQNames="true">
-    <context>
       <option name="SCALA" value="true" />
     </context>
   </template>

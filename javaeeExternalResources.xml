@@ -2,8 +2,6 @@
   <component name="ExternalResourceManagerImpl">
     <resource url="http://ehcache.org/ehcache.xsd" location="$USER_HOME$/.IntelliJIdea2018.1/system/extResources/39e8daee_ehcache.xsd" />
     <resource url="http://scm.nicezhuanye.com/schema/dubbo/dubbo.xsd" location="$USER_HOME$/.IntelliJIdea2018.1/system/extResources/a127afb6_dubbo.xsd" />
-    <resource url="http://www.puppycrawl.com/dtds/configuration_1_3.dtd" location="$USER_HOME$/.IntelliJIdea2018.1/system/extResources/1524e8b2_configuration_1_3.dtd" />
-    <resource url="http://www.puppycrawl.com/dtds/import_control_1_1.dtd" location="$USER_HOME$/.IntelliJIdea2018.1/system/extResources/c966fa9d_import_control_1_1.dtd" />
     <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="$USER_HOME$/.IntelliJIdea2018.1/system/extResources/334543e7_spring-beans.xsd" />
     <resource url="http://www.zeroturnaround.com" location="$USER_HOME$/.IntelliJIdea2018.1/system/extResources/20b583dc_rebel-2_1.xsd" />
   </component>
