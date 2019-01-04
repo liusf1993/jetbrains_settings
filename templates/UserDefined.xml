@@ -14,6 +14,7 @@
     <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
+      <option name="SCALA" value="true" />
     </context>
   </template>
   <template name="crt" value="ResultContent.createSuccessResult($SELECTION$)" description="resultContent" toReformat="false" toShortenFQNames="true">
@@ -25,6 +26,12 @@
   <template name="rt" value="ResultContent[$SELECTION$]" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="sslog" value="private val  logger:org.slf4j.Logger  = org.slf4j.LoggerFactory.getLogger(classOf[$class$])&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
       <option name="SCALA" value="true" />
     </context>
   </template>
