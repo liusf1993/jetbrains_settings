@@ -35,4 +35,13 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
+  <template name="set" value="def set$FieldName$($fieldName$: $filedType$):$ClassName$={&#10;  this.$fieldName$ = $fieldName$&#10;  this&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="FieldName" expression="scala_typeOfVariable" defaultValue="" alwaysStopAt="true" />
+    <variable name="ClassName" expression="scala_className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="filedType" expression="scala_typeOfVariable" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldName" expression="scala_iterableVariable()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
 </templateSet>
