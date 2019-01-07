@@ -48,4 +48,11 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="typeParam" value="$param$ : $Type$" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="decapitalize(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <variable name="Type" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
 </templateSet>
