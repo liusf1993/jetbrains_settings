@@ -35,13 +35,17 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
-  <template name="set" value="def set$FieldName$($fieldName$: $filedType$):$ClassName$={&#10;  this.$fieldName$ = $fieldName$&#10;  this&#10;}" toReformat="false" toShortenFQNames="true">
-    <variable name="FieldName" expression="scala_typeOfVariable" defaultValue="" alwaysStopAt="true" />
-    <variable name="ClassName" expression="scala_className()" defaultValue="" alwaysStopAt="true" />
-    <variable name="filedType" expression="scala_typeOfVariable" defaultValue="" alwaysStopAt="true" />
-    <variable name="fieldName" expression="scala_iterableVariable()" defaultValue="" alwaysStopAt="true" />
+  <template name="getSet" value="$groovyScript$" toReformat="false" toShortenFQNames="true">
+    <variable name="groovyScript" expression="groovyScript(&quot;StringWriter writer = new StringWriter();  _1.split('\\n').each {     row -&gt;         pair = row.split(':');         fieldName = pair[0];         FieldName = pair[0].substring(0, 1).toUpperCase() + pair[0].substring(1);         fieldType = pair[1].split('=')[0];         setMethod = 'def set'+FieldName+'('+fieldName+':'+fieldType+'):'+_2+' = {' +                 '\\n  this.'+fieldName+' = '+fieldName+'' +                 '\\n  this' +                 '\\n}';         writer.write(setMethod);         writer.write('\\n');         writer.write('\\n');          writer.write('def getFieldName:fieldType = this.fieldName'                 .replaceAll('fieldType',fieldType)                 .replaceAll('fieldName',fieldName)                 .replaceAll('FieldName',FieldName)                 .replaceAll('className',_2)         );         writer.write('\\n');         writer.write('\\n');   }; return writer.toString(); &quot;,clipboard(),scala_className())" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="GROOVY" value="true" />
       <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="test" value="$test$" toReformat="false" toShortenFQNames="true">
+    <variable name="test" expression="groovyScript(StringWriter writer = new StringWriter();  _1.toString().split('\\n').each {     row -&gt;         pair = row.split(':');         fieldName = pair[0];         FieldName = pair[0].substring(0, 1).toUpperCase() + pair[0].substring(1);         fieldType = pair[1].split('=')[0];         setMethod = 'def set'+FieldName+'('+fieldName+':'+fieldType+'):'+_2+' = {' +                 '\\n  this.'+fieldName+' = '+fieldName+'' +                 '\\n  this' +                 '\\n}';         writer.write(setMethod);         writer.write('\\n');         writer.write('\\n');          writer.write('def getFieldName:fieldType = this.fieldName'                 .replaceAll('fieldType',fieldType)                 .replaceAll('fieldName',fieldName)                 .replaceAll('FieldName',FieldName)                 .replaceAll('className',_2.toString())         );         writer.write('\\n');         writer.write('\\n');   }; return writer.toString(); &quot;,clipboard(),scala_className())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
     </context>
   </template>
 </templateSet>
