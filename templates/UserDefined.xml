@@ -29,26 +29,26 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
-  <template name="sslog" value="private val  logger:org.slf4j.Logger  = org.slf4j.LoggerFactory.getLogger(classOf[$class$])&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="sslog" value="private val  logger:org.slf4j.Logger  = org.slf4j.LoggerFactory.getLogger(classOf[$class$])&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SCALA" value="true" />
     </context>
   </template>
-  <template name="getSet" value="$groovyScript$" toReformat="false" toShortenFQNames="true">
+  <template name="getSet" value="$groovyScript$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="groovyScript" expression="groovyScript(&quot;StringWriter writer = new StringWriter();  _1.split('\\n').each {     row -&gt;         pair = row.split(':');         fieldName = pair[0];         FieldName = pair[0].substring(0, 1).toUpperCase() + pair[0].substring(1);         fieldType = pair[1].split('=')[0];         setMethod = 'def set'+FieldName+'('+fieldName+':'+fieldType+'):'+_2+' = {' +                 '\\n  this.'+fieldName+' = '+fieldName+'' +                 '\\n  this' +                 '\\n}';         writer.write(setMethod);         writer.write('\\n');         writer.write('\\n');          writer.write('def getFieldName:fieldType = this.fieldName'                 .replaceAll('fieldType',fieldType)                 .replaceAll('fieldName',fieldName)                 .replaceAll('FieldName',FieldName)                 .replaceAll('className',_2)         );         writer.write('\\n');         writer.write('\\n');   }; return writer.toString(); &quot;,clipboard(),scala_className())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GROOVY" value="true" />
       <option name="SCALA" value="true" />
     </context>
   </template>
-  <template name="test" value="$test$" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="$test$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="test" expression="groovyScript(StringWriter writer = new StringWriter();  _1.toString().split('\\n').each {     row -&gt;         pair = row.split(':');         fieldName = pair[0];         FieldName = pair[0].substring(0, 1).toUpperCase() + pair[0].substring(1);         fieldType = pair[1].split('=')[0];         setMethod = 'def set'+FieldName+'('+fieldName+':'+fieldType+'):'+_2+' = {' +                 '\\n  this.'+fieldName+' = '+fieldName+'' +                 '\\n  this' +                 '\\n}';         writer.write(setMethod);         writer.write('\\n');         writer.write('\\n');          writer.write('def getFieldName:fieldType = this.fieldName'                 .replaceAll('fieldType',fieldType)                 .replaceAll('fieldName',fieldName)                 .replaceAll('FieldName',FieldName)                 .replaceAll('className',_2.toString())         );         writer.write('\\n');         writer.write('\\n');   }; return writer.toString(); &quot;,clipboard(),scala_className())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="typeParam" value="$param$ : $Type$" toReformat="false" toShortenFQNames="true">
+  <template name="typeParam" value="$param$ : $Type$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="param" expression="decapitalize(clipboard())" defaultValue="" alwaysStopAt="true" />
     <variable name="Type" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
