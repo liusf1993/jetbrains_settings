@@ -4,6 +4,9 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
+  <action id="Debugger.PopFrame">
+    <keyboard-shortcut first-keystroke="alt d" second-keystroke="alt f" />
+  </action>
   <action id="Diff.ShowSettingsPopup" />
   <action id="IntroduceConstant" />
   <action id="RevealIn">
