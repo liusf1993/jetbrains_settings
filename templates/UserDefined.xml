@@ -55,7 +55,7 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
-  <template name="ex" value="$groovyScript$" toReformat="false" toShortenFQNames="true">
+  <template name="ex" value="$groovyScript$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="groovyScript" expression="groovyScript(&quot;String versionInfo = _1; String[] infos = versionInfo.split(':'); return String.format('&lt;exclusion&gt;\\n' +         '          &lt;artifactId&gt;%s&lt;/artifactId&gt;\\n' +         '          &lt;groupId&gt;%s&lt;/groupId&gt;\\n' +         '        &lt;/exclusion&gt;',infos[1],infos[0]);&quot;,clipboard())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
