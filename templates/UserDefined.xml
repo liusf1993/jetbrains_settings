@@ -61,4 +61,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="tre" value="throw new RuntimeException(&quot;$cp$&quot;);" description="throw new RuntimeException(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
+    <variable name="cp" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
