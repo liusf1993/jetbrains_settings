@@ -67,7 +67,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="kugou" value="    #if(!${typeFields.size()})&#10;    $SELECTIONs$&#10;    #end" toReformat="false" toShortenFQNames="true">
+  <template name="kugou" value="    #if(!${typeFields.size()})&#10;    $SELECTIONs$&#10;    #end" description="" toReformat="false" toShortenFQNames="true">
     <variable name="SELECTIONs" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
