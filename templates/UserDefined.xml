@@ -73,7 +73,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="get" value="def get$CLIP$ = $clip$ " toReformat="false" toShortenFQNames="true">
+  <template name="get" value="def get$CLIP$ = $clip$ " description="" toReformat="false" toShortenFQNames="true">
     <variable name="CLIP" expression="capitalize(clipboard())" defaultValue="" alwaysStopAt="true" />
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
