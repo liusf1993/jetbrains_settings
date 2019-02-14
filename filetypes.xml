@@ -5,6 +5,7 @@
       <mapping pattern="让工具与与帮助你提升工作效率" type="PLAIN_TEXT" />
       <mapping pattern="gene" type="PLAIN_TEXT" />
       <mapping pattern="x" type="PLAIN_TEXT" />
+      <mapping pattern="0301" type="PLAIN_TEXT" />
       <mapping ext="0__creatergnsubj_choice_time_setting" type="PLAIN_TEXT" />
       <mapping ext="汇总基本分析_res" type="PLAIN_TEXT" />
       <mapping ext="江总增量分析_res" type="PLAIN_TEXT" />
