@@ -1,0 +1,88 @@
+<templateSet group="UserDefined">
+  <template name="tg" value="$groovyScript$" description="execute groovySciprt" toReformat="false" toShortenFQNames="true">
+    <variable name="groovyScript" expression="groovyScript(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="PFM" value="long startTime = System.currentTimeMillis();&#10;$SELECTION$&#10;logger.warn(&quot;cost time:{}&quot;,System.currentTimeMillis()-startTime)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="slog" value="private static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger($class$.class);&#10;" description="add logger for current class" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="crt" value="ResultContent.createSuccessResult($SELECTION$)" description="resultContent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="rt" value="ResultContent[$SELECTION$]" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="sslog" value="private val  logger:org.slf4j.Logger  = org.slf4j.LoggerFactory.getLogger(classOf[$class$])&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="getSet" value="$groovyScript$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="groovyScript" expression="groovyScript(&quot;StringWriter writer = new StringWriter();  _1.split('\\n').each {     row -&gt;         pair = row.split(':');         fieldName = pair[0];         FieldName = pair[0].substring(0, 1).toUpperCase() + pair[0].substring(1);         fieldType = pair[1].split('=')[0];         setMethod = 'def set'+FieldName+'('+fieldName+':'+fieldType+'):'+_2+' = {' +                 '\\n  this.'+fieldName+' = '+fieldName+'' +                 '\\n  this' +                 '\\n}';         writer.write(setMethod);         writer.write('\\n');         writer.write('\\n');          writer.write('def getFieldName:fieldType = this.fieldName'                 .replaceAll('fieldType',fieldType)                 .replaceAll('fieldName',fieldName)                 .replaceAll('FieldName',FieldName)                 .replaceAll('className',_2)         );         writer.write('\\n');         writer.write('\\n');   }; return writer.toString(); &quot;,clipboard(),scala_className())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="test" value="$test$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="test" expression="groovyScript(StringWriter writer = new StringWriter();  _1.toString().split('\\n').each {     row -&gt;         pair = row.split(':');         fieldName = pair[0];         FieldName = pair[0].substring(0, 1).toUpperCase() + pair[0].substring(1);         fieldType = pair[1].split('=')[0];         setMethod = 'def set'+FieldName+'('+fieldName+':'+fieldType+'):'+_2+' = {' +                 '\\n  this.'+fieldName+' = '+fieldName+'' +                 '\\n  this' +                 '\\n}';         writer.write(setMethod);         writer.write('\\n');         writer.write('\\n');          writer.write('def getFieldName:fieldType = this.fieldName'                 .replaceAll('fieldType',fieldType)                 .replaceAll('fieldName',fieldName)                 .replaceAll('FieldName',FieldName)                 .replaceAll('className',_2.toString())         );         writer.write('\\n');         writer.write('\\n');   }; return writer.toString(); &quot;,clipboard(),scala_className())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="typeParam" value="$param$ : $Type$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="decapitalize(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <variable name="Type" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="ex" value="$groovyScript$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="groovyScript" expression="groovyScript(&quot;String versionInfo = _1; String[] infos = versionInfo.split(':'); return String.format('&lt;exclusion&gt;\\n' +         '          &lt;artifactId&gt;%s&lt;/artifactId&gt;\\n' +         '          &lt;groupId&gt;%s&lt;/groupId&gt;\\n' +         '        &lt;/exclusion&gt;',infos[1],infos[0]);&quot;,clipboard())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tre" value="throw new RuntimeException(&quot;$cp$&quot;);" description="throw new RuntimeException(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
+    <variable name="cp" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="kugou" value="    #if(!${typeFields.size()})&#10;    $SELECTIONs$&#10;    #end" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTIONs" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="get" value="def get$CLIP$ = $clip$ " description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLIP" expression="capitalize(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="br" value="{&#10;    $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
